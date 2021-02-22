@@ -10,6 +10,6 @@
 // console.log(removeDuplicates([11, 11, 43, 43, 33, 22, 11]))
 
 function sum (a, b){
-    return a +b
+    return a + b;
 }
 console.log(sum(10, 11));
