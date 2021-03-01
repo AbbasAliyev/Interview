@@ -17,3 +17,10 @@ return "palindrome";
 } else return "not a palindrome";
  }
  console.log(isPalindrome('Abbas'))
+
+
+var isPalindrome = function(s) {
+    let rev = s.toLowerCase().split('').filter(el => el !== ' ' ).reverse().join('');
+    return s.toLowerCase().split('').filter(el => el !== ' ' ).join('') === rev
+
+};
