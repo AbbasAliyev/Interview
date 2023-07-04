@@ -14,4 +14,4 @@ function fibonacci(num){
     return b;
 }
 
-console.log(fibonacci(4));
+console.log(fibonacci(5));

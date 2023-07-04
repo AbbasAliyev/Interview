@@ -11,4 +11,4 @@ function twoSum(arr, target){
     }
     return result;
 }
-console.log(twoSum([2, 7, 11, 15], 9));
+console.log(twoSum([2, 7, 11, 15], 18));

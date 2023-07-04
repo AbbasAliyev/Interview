@@ -9,7 +9,12 @@ let removeDuplicates = function(nums) {
   //  return Array.from(new Set(nums));
     return nums;
 }
-console.log(removeDuplicates([11, 11, 43, 43, 33, 22, 11]))
+console.log(removeDuplicates(['A', 'B', 'C', 'A', 'B']))
+
+let  char = [1, 2, 3, 1, 2, 5, 7, 7,6,5,2];
+let uniqChar = [...new Set(char)];
+
+console.log(uniqChar.sort());
 
 
 // function sum (a, b){

@@ -7,4 +7,4 @@ function factorialize(num) {
         return (num * factorialize(num - 1));
     }
 }
-console.log(factorialize(8));
+console.log(factorialize(0));
