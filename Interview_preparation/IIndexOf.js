@@ -6,4 +6,4 @@ function detect (str,char){
     }
     return -1
 }
-console.log(detect("Hello", "H"));
+console.log(detect("Hello", "o"));
